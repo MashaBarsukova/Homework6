@@ -330,13 +330,15 @@ footer a {
   color: #fff;
   font-size: 12px;
   font-family: Arial, sans-serif;
-
+  padding-top: 12px;
 }
 
 .bottom_menu2 {
   display: flex;
   width: 100%;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .social-media-list {
@@ -375,7 +377,6 @@ footer a {
 .policy {
   color: #fff;
   font-size: 12px;
-  position: absolute;
   bottom: -997px;
 }
 
