@@ -65,6 +65,11 @@ li {
   line-height: 1px;
 }
 
+.submenu a {
+  line-height: 1px;
+  color: #6b7488;
+}
+
 .menu_item:hover >.submenu {
   display: block;
   color: #263555;

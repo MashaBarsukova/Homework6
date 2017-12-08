@@ -65,6 +65,11 @@ li {
   line-height: 1px;
 }
 
+.submenu a {
+  line-height: 1px;
+  color: #6b7488;
+}
+
 .menu_item:hover >.submenu {
   display: block;
   color: #263555;
@@ -121,8 +126,23 @@ h2, h3, ul, blockquote, .logo {
   padding-bottom: 138px;
 }
 
-.picture_2 {
+.picture_1, .picture_2, .picture_3, .picture_4, .picture_5, .picture_6,
+.picture_7, .picture_8, .picture_9 {
   position: relative;
+}
+
+.picture_1:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
 }
 
 .picture_2:hover::after {
@@ -130,7 +150,105 @@ h2, h3, ul, blockquote, .logo {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_3:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_4:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_5:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_6:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_7:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_8:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_9:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
     background-color: #000;
     background-image: url(../images/zoom.png);
     background-repeat: no-repeat;
