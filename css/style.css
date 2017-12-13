@@ -72,12 +72,16 @@ li {
 
 .menu_item:hover >.submenu {
   display: block;
-  color: #263555;
+  color: #263555
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
+}
+
+header a:hover {
+  color: #263555
 }
 
 .logo {
@@ -99,7 +103,7 @@ h2 {
   font-weight: 200;
 }
 
-h2, h3, ul, blockquote, .logo {
+h2, h3, blockquote, .logo {
   color: #263555;
   font-weight: 200;
 }
