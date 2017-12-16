@@ -389,7 +389,7 @@ footer a {
   bottom: -997px;
 }
 
-.botton-to-top {
+.botton-to-top a {
   position: fixed;
   display: inline-block;
   border-radius: 50%;
@@ -400,7 +400,7 @@ footer a {
   left: 1212px;
 }
 
-.botton-to-top::before {
+.botton-to-top a::before {
   content: '\2191';
   position: absolute;
   bottom: 9px;
